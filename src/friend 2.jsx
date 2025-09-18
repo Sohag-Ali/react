@@ -1,0 +1,13 @@
+export default function Friend({friend}){
+    console.log(friend);
+    const {name, email,phone, website} = friend;
+    return(
+        <div className="card">
+            <h4>Name: {name}</h4>
+            <h4>Email: {email}</h4>
+            <h4>Phone: {phone}</h4>
+            <h4>Website {website}</h4>
+            
+        </div>
+    )
+}
